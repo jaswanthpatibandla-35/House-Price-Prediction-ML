@@ -23,3 +23,19 @@ Technologies and Libraries
     matplotlib — for data visualization
 
     scikit-learn — for building and evaluating the Linear Regression model
+
+    ## Features
+
+- Data preprocessing using Pandas
+- Linear Regression model training
+- House price prediction
+- Model evaluation using MAE, MSE, and RMSE
+- Data visualization using Matplotlib
+
+## Output
+
+The model predicts house prices based on apartment area and visualizes the relationship between area and price using a regression line.
+
+## Author
+
+Patibandla Jaswanth
