@@ -1,36 +1,55 @@
-House Price Prediction with Linear Regression
-Project Overview
+# House Price Prediction with Linear Regression
 
-This project implements a simple machine learning model to predict apartment prices based on their area (square feet) using Linear Regression. It demonstrates data preparation, model training, prediction, and visualization steps in Python using real-world data.
-Dataset
+## Project Overview
 
-The dataset consists of 25 apartments from the "Malek Shahr" neighborhood in Isfahan, Iran.
-The data includes:
+This project uses Machine Learning and Linear Regression to predict house prices based on apartment area (square feet).
 
-    Square Feet (Area) of each apartment
-
-    Price in Iranian Rials
-
-These data points were collected from the Divar website (a popular local real estate platform).
-Technologies and Libraries
-
-    Python 3.x
-
-    pandas — for data manipulation
-
-    numpy — for numerical operations
-
-    matplotlib — for data visualization
-
-    scikit-learn — for building and evaluating the Linear Regression model
-
-    ## Features
-
-- Data preprocessing using Pandas
-- Linear Regression model training
+The project demonstrates:
+- Data preprocessing
+- Data visualization
+- Model training
 - House price prediction
-- Model evaluation using MAE, MSE, and RMSE
-- Data visualization using Matplotlib
+- Model evaluation
+
+## Dataset
+
+The dataset contains information about 25 apartments.
+
+Features:
+- Square Feet (Area)
+- Price
+
+## Technologies Used
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Machine Learning Model
+
+- Linear Regression
+
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+## Project Screenshots
+
+### Dataset
+![Dataset](code_data.png)
+
+### Model Training
+![Model](code_model.png)
+
+### Prediction Code
+![Prediction](code_pred.png)
+
+### Output Graph
+![Output](output.png)
 
 ## Output
 
