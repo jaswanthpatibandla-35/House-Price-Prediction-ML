@@ -2,31 +2,42 @@
 
 ## Project Overview
 
-This project implements a simple machine learning model to predict apartment prices based on their area (square feet) using Linear Regression. It demonstrates data preparation, model training, prediction, and visualization using Python.
+This project uses Machine Learning and Linear Regression to predict house prices based on apartment area (square feet).
+
+The project demonstrates:
+
+- Data preprocessing
+- Data visualization
+- Model training
+- House price prediction
+- Model evaluation
 
 ## Dataset
 
-The dataset consists of 25 apartments.
+The dataset contains information about 25 apartments.
 
-The data includes:
-- Square Feet (Area) of each apartment
+### Features
+
+- Square Feet (Area)
 - Price
 
-## Technologies and Libraries
+## Technologies Used
 
 - Python 3.x
-- Pandas — for data manipulation
-- NumPy — for numerical operations
-- Matplotlib — for data visualization
-- Scikit-learn — for building and evaluating the Linear Regression model
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-## Features
+## Machine Learning Model
 
-- Data preprocessing using Pandas
-- Linear Regression model training
-- House price prediction
-- Model evaluation using MAE, MSE, and RMSE
-- Data visualization using Matplotlib
+- Linear Regression
+
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
 
 ## Project Screenshots
 
@@ -34,13 +45,13 @@ The data includes:
 ![Dataset](code_data.png)
 
 ### Model Training
-![Model](code_model.png)
+![Model Training](code_model.png)
 
-### Prediction
+### Prediction Code
 ![Prediction](code_pred.png)
 
 ### Output Graph
-![Output](output.png)
+![Output Graph](output.png)
 
 ## Output
 
